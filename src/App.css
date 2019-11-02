@@ -1,22 +1,69 @@
-.App {
-  text-align: center;
+.status {
+  position: relative;
+  background-color: #dbdbdb;
+  border-radius: 2.5rem;
+  width: 12rem;
+  height: 1.2rem;
+  margin-bottom: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
+.filler {
+  background: #4BB4DE;
+  width: 0;
+  height: 100%;
+  border-radius: inherit;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.filler > span {
+  display: block;
+  padding-left: .5rem;
+  font-size: .9rem;
+  height: .5rem;
   color: white;
+  margin-bottom: .1rem;
 }
 
-.App-link {
-  color: #09d3ac;
+.card {
+  width: 13rem;
+  height: auto;
+  padding: 1rem;
+  padding-bottom: 1.2rem;
+  border-radius: 1.3rem;
+  -webkit-box-shadow: #d3cdcd 1px 2px 5px;
+          box-shadow: #d3cdcd 1px 2px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 2rem;
 }
+
+.card > * {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.pokemon-name {
+  padding: 1rem 0 1.5rem 0;
+  font-size: 1.5rem;
+}
+
+.pokemon-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=App.css.map */

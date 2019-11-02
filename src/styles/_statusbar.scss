@@ -1,0 +1,27 @@
+.status {
+    position: relative;
+    background-color: rgb(219, 219, 219);
+    border-radius: 2.5rem;
+    width: 12rem;
+    height: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.filler {
+    background: #4BB4DE;
+    width: 0;
+    height: 100%;
+    border-radius: inherit;
+    padding: 0;
+    
+    
+}
+
+.filler>span {
+    display: block;
+    padding-left: .5rem;
+    font-size: .9rem;
+    height: .5rem;
+    color: white;
+    margin-bottom: .1rem;
+}

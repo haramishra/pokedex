@@ -1,0 +1,23 @@
+.card{
+    width: 13rem;
+    height: auto;
+    padding: 1rem;
+    padding-bottom: 1.2rem;
+    border-radius: 1.3rem;
+    box-shadow: rgb(211, 205, 205) 1px 2px 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    
+}
+
+.card>*{
+    align-self: center;
+}
+
+.pokemon-name {
+    padding: 1rem 0 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+
